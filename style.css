@@ -83,7 +83,7 @@ body.dark-theme{
 }
 
 .dark-theme .nav__menu{
-    box-shadow: 0 8px 24px #6D5D6E;
+/*     box-shadow: 0 8px 24px #6D5D6E; */
 }
 
 .dark-theme .nav__logo,
