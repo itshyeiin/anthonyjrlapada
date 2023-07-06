@@ -5,10 +5,10 @@
     --header-height: 3.5rem;
 
     /* COLORS */
-    --main-color: #FFEDDB;
-    --secondary-color: #EDCDBB;
-    --tertiary-color: #E3B7A0;
-    --quaternary-color: #BF9270;
+    --main-color: #F6F6F6;
+    --secondary-color: #EAE9E9;
+    --tertiary-color: #D4D7DD;
+    --quaternary-color: #420000;
 
     /* TYPOGRAPHY */
     --biggest-font-size: 2.25rem;
@@ -74,16 +74,16 @@ img{
 
 /* DARK THEME */
 body.dark-theme{
-    background-color: #7D5A50;
+    background-color: #393646;
 }
 
 .dark-theme .header,
 .dark-theme .nav__menu{
-    background-color: #B4846C;
+    background-color: #4F4557;
 }
 
 .dark-theme .nav__menu{
-    /* box-shadow: 0 8px 24px rgba(5, 56, 7, 0.2); */
+    box-shadow: 0 8px 24px #6D5D6E;
 }
 
 .dark-theme .nav__logo,
@@ -91,39 +91,39 @@ body.dark-theme{
 .dark-theme .nav__toggle,
 .dark-theme .nav__close,
 .dark-theme .change-theme{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 
 .dark-theme .home__title{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 
 .dark-theme .about__data,
 .dark-theme .about__description a,
 .dark-theme .social__item a{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 
 .dark-theme .tools__data,
 .dark-theme .tools__description,
 .dark-theme .tools__card{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 
 .dark-theme .tools__card{
-    border: 1px solid #FCDEC0;
+    border: 1px solid #F4EEE0;
 }
 
 .dark-theme .project__data{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 
 .dark-theme .project__card{
-    border: 1px solid #FCDEC0;
+    border: 1px solid #F4EEE0;
 }
 
 .dark-theme .project__card a{
-    color: #FCDEC0;
+    color: #F4EEE0;
 }
 .container{
     max-width: 980px;
@@ -160,16 +160,16 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* color: var(--quaternary-color); */
-    color: #7D5A5A;
+    color: var(--quaternary-color);
+    /* color: #7D5A5A; */
     font-weight: 700;
 }
 
 .nav__toggle{
     display: inline-flex;
     font-size: 1.25rem;
-    /* color: var(--quaternary-color); */
-    color: #7D5A5A;
+    color: var(--quaternary-color);
+    /* color: #7D5A5A; */
     cursor: pointer;
 }
 
@@ -197,8 +197,8 @@ main{
 
 .nav__link,
 .nav__close{
-    /* color: var(--quaternary-color); */
-    color: #7D5A5A;
+    color: var(--quaternary-color);
+    /* color: #7D5A5A; */
 }
 
 .nav__link{
@@ -239,7 +239,7 @@ main{
 }
 
 .home__title{
-    color: #7D5A5A;
+    color: #420000;
     padding-bottom: 2rem;
     font-style: italic;
 }
@@ -250,7 +250,7 @@ main{
 
 .home__button{
     display: inline-block;
-    color: #7D5A5A;
+    color: #420000;
     background-color: var(--secondary-color);
     padding: 1rem 1.5rem;
     border-radius: 10px;
@@ -271,7 +271,7 @@ main{
 
 /* ABOUT SECTION */
 .about__section{
-    color: #7D5A5A;
+    color: #420000;
 }
 
 .section__title{
@@ -288,7 +288,7 @@ main{
 }
 
 .about__description a{
-    color: #7D5A5A;
+    color: #420000;
     text-decoration: underline;
 }
 
@@ -304,13 +304,13 @@ main{
 .socials a{
     padding: 0 0.6rem;
     font-size: 1.5rem;
-    color: #7D5A5A;
+    color: #420000;
 }
 
 /* TOOLS SECTION */
 .tools__section{
     padding-top: 4rem;
-    color: #7D5A5A;
+    color: #420000;
 }
 
 .tools__description div{
@@ -324,7 +324,7 @@ main{
     grid-template-columns: repeat(2, max-content);
     align-items: center;
     justify-content: center;
-    border: 1px solid #7D5A5A;
+    border: 1px solid #420000;
     border-radius: 5px;
     padding: 0.5rem 0;
 }
@@ -353,14 +353,14 @@ main{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    border: 1px solid #7D5A5A;
+    border: 1px solid #420000;
     border-radius: 0.5rem 0;
     padding: 0.5rem;
     height: 6rem;
 }
 
 .project__card a{
-    color: #7D5A5A;
+    color: #420000;
     text-decoration: underline;
     font-weight: 900;
     font-size: 1.2rem;
